@@ -1,0 +1,97 @@
+{
+	"Format": "2.3.0",
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Railroad",
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 56 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Warp 6 7 BathHouse_Pool"
+					}
+				}
+			],
+			"When": {
+				"PlayerGender": "Female"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Railroad",
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 56 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Warp 21 7 BathHouse_Pool"
+					}
+				}
+			],
+			"When": {
+				"PlayerGender": "Male"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BathHouse_Pool",
+			"MapTiles": [
+				{
+					"Position": { "X": 5, "Y": 2 },
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Railroad 10 57"
+					}
+				},
+				{
+					"Position": { "X": 6, "Y": 2 },
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Railroad 10 57"
+					}
+				},
+				{
+					"Position": { "X": 7, "Y": 2 },
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Railroad 10 57"
+					}
+				}
+			],
+			"When": {
+				"PlayerGender": "Female"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BathHouse_Pool",
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 2 },
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Railroad 10 57"
+					}
+				},
+				{
+					"Position": { "X": 21, "Y": 2 },
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Railroad 10 57"
+					}
+				},
+				{
+					"Position": { "X": 22, "Y": 2 },
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Railroad 10 57"
+					}
+				}
+			],
+			"When": {
+				"PlayerGender": "Male"
+			}
+		}
+	]
+}

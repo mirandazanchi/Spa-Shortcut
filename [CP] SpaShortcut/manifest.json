@@ -1,0 +1,11 @@
+{
+	"Name": "Spa Shortcut",
+	"Author": "mkzanchi",
+	"Version": "1.0.0",
+	"Description": "Go directly to the pool room from the front door of the spa, and vice versa.",
+	"UniqueID": "mkzanchi.SpaShortcut",
+	"UpdateKeys": [ "Nexus:28533" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}
